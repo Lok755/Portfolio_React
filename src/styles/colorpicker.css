@@ -1,0 +1,14 @@
+.color_btn{
+    height: 50px;
+    width:50px;
+    float:left;
+  }
+  
+  .hide_cp{
+    display:none;
+  }
+
+  .pick{
+    font-weight: 800;
+    font-size: larger;
+  }

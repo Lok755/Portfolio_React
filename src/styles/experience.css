@@ -1,0 +1,257 @@
+/* .aboutme{    
+    margin-top: 100px;
+} */
+
+.about-page{
+    margin-left:150px ;
+    margin-right: 150px;
+}
+
+.for-about{
+    margin-top :100px;
+}
+.page-heading-about{
+    margin-top: 50px ;
+}
+
+.self{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.Photo{
+    margin-right: 50px;
+}
+
+
+details{
+    margin-left: 24px;
+}
+
+.write-me {
+    font-size: 18px;
+}
+
+
+
+.horizontal-line{
+    top: 50%;
+}
+
+.download-cv{
+    width:120px;
+    font-weight: 500;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 5px 10px;
+    border: none;
+}
+
+
+.my-skills{
+    margin-top:100px;
+}
+
+
+
+.skills_main{
+    width: 100%;
+    display: grid;
+    padding-bottom: 100px;
+    padding-top:30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+.skills_main .skill_bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+}
+.skill_bar .info p:nth-child(2){
+    font-weight: 500;
+}
+.skill_bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+.skill_bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: orange;
+    border-radius: 25px;
+}
+.skill_bar .bar .html{
+    width: 90%;
+    animation: html 2s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill_bar .bar .css{
+    width: 85%;
+    animation: css 2s;
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }100%{
+        width: 85%;
+    }
+}
+.skill_bar .bar .sass{
+    width: 80%;
+    animation: sass 2s;
+}
+@keyframes sass {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .js{
+    width: 80%;
+    animation: css 2s;
+}
+@keyframes js {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .react{
+    width: 75%;
+    animation: react 2s;
+}
+@keyframes react {
+    0%{
+        width: 0%;
+    }100%{
+        width: 75%;
+    }
+}
+.skill_bar .bar .node{
+    width: 70%;
+    animation: node 2s;
+}
+@keyframes node {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill_bar .bar .express{
+    width: 65%;
+    animation: express 2s;
+}
+@keyframes express {
+    0%{
+        width: 0%;
+    }100%{
+        width: 65%;
+    }
+}
+.skill_bar .bar .mongo{
+    width: 60%;
+    animation: mongo 2s;
+}
+@keyframes mongo {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
+
+.skill-title{
+    font-size: 18px;
+    font-weight: 700
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+@media(min-width: 300px) and (max-width: 768px){
+
+
+
+.Photo{
+    align-items: center;
+    margin-right: 0;
+    margin-bottom: 50px;
+    
+}
+
+.Photo .Lok{
+    border-radius: 50%;
+    height: 15rem;
+}
+
+
+.about-page .for-about{
+    flex-direction: column;
+}
+
+.for-about{
+    margin :50px 0 50px 0;  
+}
+
+.about-page {
+    margin: 0 20px 0 20px;
+}
+
+.identity{
+    flex-direction: column;
+}
+
+.write-me {
+    font-size: 16px;
+}
+
+.brief{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.reachme .identity .data{
+    line-height: 25px;
+}
+
+.reachme{
+    margin-top:-15px;
+}
+
+.my-skills{
+    margin-top:50px;
+}
+
+.skills_main {
+    display: block;
+}
+
+.skill_bar .bar{
+    height: 7px;
+    margin-top:0px;
+    margin-bottom: 25px;
+}
+.skills_main .skill_bar .info{
+    padding:0;
+    margin-bottom: -10px;
+}
+
+.skill_bar .info p:nth-child(1){
+    font-weight: 500;
+}
+}

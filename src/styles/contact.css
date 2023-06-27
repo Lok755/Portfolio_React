@@ -1,0 +1,69 @@
+.contact-me{
+    margin: 0 0px 0 250px;  
+    padding: 0 100px 0 0;  
+
+}
+
+.hrtag{
+    display: none;
+}
+.icons{
+    margin: 0 -510px 0 0;    
+}
+
+/* .contactInfo{
+    margin-left: 50px;
+} */
+
+.sendbtn{
+    font-weight: 500;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.sendbtn:hover{
+    color:white;
+    background-color: rgb(255, 115, 0)
+}
+
+@media (min-width: 300px) and (max-width:768px){
+ 
+    
+.message{
+    flex-direction: column;
+    padding:0 20px !important;
+}
+.contact-me{
+    margin:0 0px;
+}
+.inputForContact{
+    flex-direction: column;
+}
+.contact-me .contact-info{    
+    margin:0 50px !;
+}
+.col{
+    padding:0px !important;
+}
+.row{
+    margin:0px !important;
+}
+.hrtag{
+    display: block;
+}
+.contact-info{
+    margin-top:60px !important;
+}
+
+.details-about-me{
+    margin-left: 270px;
+}
+.icons{
+    margin-top: -10px !important;
+}
+
+
+
+} 

@@ -1,0 +1,50 @@
+.card{
+    box-shadow: 5px 5px 15px rgb(173, 171, 171) ;
+    transition: transform .2s;
+    display: inline-block !important;  
+
+}
+.forMobileView{
+    display: none;
+}
+
+
+.card:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.card-image-top{
+    border: 2px solid black;
+}
+
+
+.card-title{
+    color:black;
+    
+}
+.a{
+    text-decoration: none;
+}
+
+@media (min-width: 300px) and (max-width:768px){
+    .projectcards{
+        flex-direction: column; 
+    }
+
+    .card{
+        max-height: 20vh;
+        max-width: 60vh;
+    }
+
+    .card-title{
+        font-size: 20px;
+    }
+
+    .forMobileView{
+        display: block;
+    }
+    .forPCView{
+        display:none;
+    }
+
+}
